@@ -15,5 +15,6 @@ public class HelloWorld : MonoBehaviour
     void Update()
     {
         print("destry bois n grls");
+        print("Hello World! v6");
     }
 }
