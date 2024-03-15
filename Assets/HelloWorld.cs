@@ -14,6 +14,6 @@ public class HelloWorld : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print("Hello World! 4");
+        print("destry bois n grls");
     }
 }
