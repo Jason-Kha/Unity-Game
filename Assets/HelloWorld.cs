@@ -2,11 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FollowPlayer : MonoBehaviour
+public class HelloWorld : MonoBehaviour
 {
-    
-    public Transform player;
-    
+    public int health = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +14,6 @@ public class FollowPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = player.transform.position + new Vector3(2, 1, -2);
+        print("Hello World!");
     }
 }
