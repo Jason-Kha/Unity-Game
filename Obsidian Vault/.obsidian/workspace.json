@@ -13,7 +13,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Game Ideas.md",
+                "file": "03-22 Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3a5aa53b2c325465",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-22 Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "63578ca44041e72b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "613d4688bc7a2562",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Objectives.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Game Ideas.md",
+                "file": "03-22 Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Game Ideas.md",
+                "file": "03-22 Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Game Ideas.md"
+                "file": "03-22 Notes.md"
               }
             }
           }
@@ -160,6 +190,8 @@
   },
   "active": "12e076f8e0324505",
   "lastOpenFiles": [
+    "Objectives.md",
+    "03-22 Notes.md",
     "Game Ideas.md",
     "Test note.md"
   ]
