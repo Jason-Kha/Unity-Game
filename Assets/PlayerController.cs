@@ -77,22 +77,22 @@ public class PlayerController : MonoBehaviour
     {
         if (forwardKey == true)
         {
-            rb.AddForce(0, 0, moveSpeed * Time.deltaTime);
+            rb.AddForce(0, 0, moveSpeed * Time.deltaTime, ForceMode.VelocityChange);
         }
 
         if (backKey == true)
         {
-            rb.AddForce(0, 0, -moveSpeed * Time.deltaTime);
+            rb.AddForce(0, 0, -moveSpeed * Time.deltaTime, ForceMode.VelocityChange);
         }
 
         if (rightKey == true)
         {
-            rb.AddForce(moveSpeed * Time.deltaTime, 0, 0);
+            rb.AddForce(moveSpeed * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
 
         if (leftKey == true)
         {
-            rb.AddForce(-moveSpeed * Time.deltaTime, 0, 0);
+            rb.AddForce(-moveSpeed * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
 
         if (spaceKey == true && onGround == true)
