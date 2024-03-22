@@ -277,7 +277,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1147496cc919e4f4184d8b1a14202453, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
 --- !u!136 &579091566
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -557,6 +556,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
+<<<<<<< Updated upstream
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0d49462b66299ce4f95b470f61b522f4, type: 3}
       insertIndex: -1
@@ -565,6 +565,13 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0d49462b66299ce4f95b470f61b522f4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1039420701}
+=======
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 0d49462b66299ce4f95b470f61b522f4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1787421556}
+>>>>>>> Stashed changes
   m_SourcePrefab: {fileID: 100100000, guid: 0d49462b66299ce4f95b470f61b522f4, type: 3}
 --- !u!1 &963194225
 GameObject:
@@ -875,6 +882,7 @@ MonoBehaviour:
   rb: {fileID: 1275645306}
   moveSpeed: 1000
   jumpSpeed: 125
+<<<<<<< Updated upstream
 --- !u!1 &1752336182
 GameObject:
   m_ObjectHideFlags: 0
@@ -893,10 +901,20 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &1752336183
 Transform:
+=======
+--- !u!1 &1787421555 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 0d49462b66299ce4f95b470f61b522f4, type: 3}
+  m_PrefabInstance: {fileID: 839151768}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1787421556
+BoxCollider:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 1752336182}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -906,6 +924,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 440925886}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_GameObject: {fileID: 1787421555}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.387058, y: 2.4421983, z: 8.645314}
+  m_Center: {x: 0.25814095, y: 0.7197205, z: 0.0792099}
+>>>>>>> Stashed changes
 --- !u!1 &2074725167
 GameObject:
   m_ObjectHideFlags: 0

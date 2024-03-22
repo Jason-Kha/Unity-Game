@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class HelloWorld : MonoBehaviour
 {
-    public int health = 5;
+    // public int health = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +14,9 @@ public class HelloWorld : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        /*
         print("destry bois n grls");
         print("Hello World! v6");
+        */
     }
 }

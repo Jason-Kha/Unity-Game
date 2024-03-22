@@ -8,11 +8,15 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 1000f;
     public float jumpSpeed = 2000f;
 
+    public int num = 0;
+
     bool forwardKey = false;
     bool backKey = false;
     bool rightKey = false;
     bool leftKey = false;
     bool spaceKey = false;
+
+    bool onGround = false;
 
     // Start is called before the first frame update
     void Start()
@@ -67,7 +71,7 @@ public class PlayerController : MonoBehaviour
         {
             spaceKey = false;
         }
-    }
+    }// end Update()
 
     void FixedUpdate()
     {
@@ -91,10 +95,21 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(-moveSpeed * Time.deltaTime, 0, 0);
         }
 
-        if (spaceKey == true)
+        if (spaceKey == true && onGround == true)
         {
-            Debug.Log("space is pressed");
             rb.AddForce(Vector3.up * jumpSpeed * Time.deltaTime, ForceMode.VelocityChange);
+            onGround = false;
+            Debug.Log("jump " + num);
+            num = num + 1;
+        }
+    }// end FixedUpdate()
+
+    
+    void OnCollisionStay(Collision collision)
+    {
+        if (collision.collider.tag == "ground")
+        {
+            onGround = true;
         }
     }
 }
