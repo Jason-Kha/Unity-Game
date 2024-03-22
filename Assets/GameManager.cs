@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HelloWorld : MonoBehaviour
+public class GameManager : MonoBehaviour
 {
-    public int health = 5;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +13,6 @@ public class HelloWorld : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        print("destry bois n grls");
-        print("Hello World! v6");
+        
     }
 }
