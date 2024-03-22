@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &440925886 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0d49462b66299ce4f95b470f61b522f4, type: 3}
+  m_PrefabInstance: {fileID: 839151768}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &556878852
 GameObject:
   m_ObjectHideFlags: 3
@@ -643,7 +648,7 @@ Transform:
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2588191, y: 0.00006775377, z: -0.00025286045, w: 0.9659258}
-  m_LocalPosition: {x: -4.94, y: 8.410002, z: -17.16833}
+  m_LocalPosition: {x: -5.141119, y: 1.6800015, z: -13.788329}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -880,7 +885,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 1275645305}
+  m_Follow: {fileID: 440925886}
   m_Lens:
     FieldOfView: 82.27
     OrthographicSize: 5
@@ -909,7 +914,7 @@ Transform:
   m_GameObject: {fileID: 2074725167}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2588191, y: 0.00006775377, z: -0.00025286045, w: 0.9659258}
-  m_LocalPosition: {x: -4.94, y: 8.410002, z: -17.16833}
+  m_LocalPosition: {x: -5.141119, y: 1.6800015, z: -13.788329}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
