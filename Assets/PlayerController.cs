@@ -94,7 +94,7 @@ public class PlayerController : MonoBehaviour
         if (spaceKey == true)
         {
             Debug.Log("space is pressed");
-            rb.AddForce(Vector3.up * jumpSpeed * Time.deltaTime);
+            rb.AddForce(Vector3.up * jumpSpeed * Time.deltaTime, ForceMode.VelocityChange);
         }
     }
 }
